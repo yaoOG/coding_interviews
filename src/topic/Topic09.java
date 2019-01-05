@@ -1,10 +1,12 @@
+package topic;
+
 import java.util.Stack;
 
 /**
  * @author zhuyao
  * @date 2019/01/04
  */
-public class Test09 {
+public class Topic09 {
     /**
      * 用两个栈模拟的队列
      * 用两个栈实现一个队列。队列的声明如下，诸实现它的两个函数appendTail和deleteHead，
