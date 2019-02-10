@@ -109,8 +109,9 @@ public class Topic32 {
 
     // 之字形打印二叉树 各行 从左往右 从右往左 交替打印
     public void printTree(TreeNode root) {
-        if (root == null)
+        if (root == null) {
             return;
+        }
         // 按照这个要求我们需要两个栈辅助
         // 交替使用两个栈 奇数层数据存放在stack1 偶数层在stack2
         // 奇数层我们把下一层数据先left后right压入stack2 偶数层把下一层先right后left压入stack1
